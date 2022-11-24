@@ -1,0 +1,16 @@
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+addition=a+b
+subtraction=a-b
+multiplication=a*b
+division=a/b
+modulus=a%b
+exponentiation=a**b
+floordivision=a//b
+print('addition',addition)
+print('subtraction',subtraction)
+print('multiplication',multiplication)
+print('division',division)
+print('modulus',modulus)
+print('exponentiation',exponentiation)
+print('floordivision',floordivision)
