@@ -1,0 +1,6 @@
+list=[1,2,4,6,8,9]
+n=int(input('enter a number'))
+if n in list:
+    print('yes')
+else:
+    print('no')
