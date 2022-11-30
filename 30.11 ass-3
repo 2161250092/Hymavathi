@@ -1,0 +1,28 @@
+billno=int(input('Enter bill number:'))
+name=input('Enter name:')
+units=int(input('Number of units consumed:'))
+if (units>0 and units<=100):
+    bill=units*2
+    charge=25
+elif units>100 and units<=200:
+    bill=units*4
+    charge=50
+elif units>200 and units<=300:
+    bill=units*6
+    charge=75
+elif units>300:
+    bill=units*10
+    charge=100
+else:
+    bill=0
+    charge=0
+fixedcharge=bill+charge
+print('bill no:',billno)
+print('name:',name)
+print('units:',units)
+print('bill:',fixedcharge)
+    
+
+
+    
+     
