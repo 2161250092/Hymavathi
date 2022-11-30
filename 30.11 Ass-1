@@ -1,0 +1,30 @@
+vege=500
+frui=600
+milpro=1000
+bread=200
+oil=2000
+cphno=int(input('Enter customer phone number:'))
+cname=input('Enter customer name:')
+caddr=input('Enter customer address:')
+vq=int(input('Enter vegetables quantity'))
+fq=int(input('Enter fruits quantity'))
+mpq=int(input('Enter milk products quantity'))
+bq=int(input('Enter bread quantity'))
+oq=int(input('Enter oil quantity'))
+bill=(vege*vq)+(frui*fq)+(milpro*mpq)+(bread*bq)+(oil*oq)
+if bill>3000:
+    tax=(bill*5)/100
+elif bill>2000:
+    tax=(bill*7)/100
+elif bill>1000:
+    tax=(bill*10)/100
+elif bill>500:
+    tax=(bill*15)/100
+else:
+    tax=100
+bill=bill+tax    
+print('customer phone number:',cphno) 
+print('customer name:',cname)
+print('customer address:',caddr)
+print('tax:',tax)
+print('bill amount:',bill)
