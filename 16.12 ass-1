@@ -1,0 +1,6 @@
+str=input()
+length=len(str)
+print('no. of characters in the given string=',length)
+print(str.upper())
+print(str.lower())
+print(str.swapcase())
